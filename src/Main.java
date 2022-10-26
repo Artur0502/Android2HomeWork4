@@ -7,7 +7,7 @@ public class Main {
         ArrayList<String> Names=new ArrayList<>();
         Scanner scanner=new Scanner(System.in);
         for (int i = 0; i < 5; i++) {
-            System.out.print("ведите 5 имя человека("+(i+1)+"): ");
+            System.out.print("введите 5 имя человека("+(i+1)+"): ");
             Names.add(i,scanner.nextLine());
 
         }
